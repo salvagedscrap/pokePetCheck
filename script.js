@@ -86,7 +86,7 @@ class Poke{
     // }
     weightToKg(weight){
         document.querySelector('.weight').innerText= `${weight} kg`
-        return weight/2
+        return weight/20
     }
     heightToM(height){
         document.querySelector('.height').innerText= `${height}m`
