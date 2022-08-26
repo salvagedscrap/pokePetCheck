@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+
+    text-align: center;
+}
+
+img{
+    width: 300px;
+}
+body{
+    margin: 0;
+    background: linear-gradient(#FFCC00, #0173B8 ) ;
+    background-size: cover;
+    height: 100vh;
+}
+ul{
+    width: 50%;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+img,
+h3{
+    margin: 2rem;
+}
+h2{
+    padding: 4rem ;
+}
